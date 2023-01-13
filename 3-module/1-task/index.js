@@ -1,3 +1,4 @@
 function namify(users) {
-  // ваш код...
-}
+  let arr = users.filter(user => user.name = true);
+  return arr;
+};
